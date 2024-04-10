@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "NetworkLibrary"
 include(":app")
+include(":networkmodule")
