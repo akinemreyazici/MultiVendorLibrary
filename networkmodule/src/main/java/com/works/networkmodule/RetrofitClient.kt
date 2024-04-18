@@ -7,9 +7,9 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
-object RetrofitClient {
+object RetrofitCustomerClient {
 
-    private val Base_URL = "http://app.welfare.ws/api/v1/"
+    private val Base_URL = "http://customer.mecomkou.com"
     private var retrofit: Retrofit? = null
 
     // Bu değişkeni tokeninizi saklamak için kullanabilirsiniz.
